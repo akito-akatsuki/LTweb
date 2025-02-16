@@ -1,0 +1,63 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.hed {
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: rgba(0, 255, 255, 0.5);
+  padding: 20px;
+  font-size: 30px;
+}
+.left,
+.right {
+  text-align: center;
+  float: left;
+  width: 50%;
+  font-size: 20px;
+}
+
+.right {
+  float: right;
+}
+.jesko,
+.pors {
+  width: 500px;
+}
+.skr {
+  width: 30px;
+  display: inline-block;
+  animation: rotate 2s linear infinite;
+}
+.mail,
+.stu {
+  width: 50px;
+  position: relative;
+  top: 10px;
+}
+
+.bottom {
+  text-align: center;
+  clear: both;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.card {
+  width: auto !important;
+  height: auto !important;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: lightblue;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
