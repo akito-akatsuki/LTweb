@@ -1,3 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+.responsive-image {
+  width: 100%;
+  height: auto;
+}
 .container {
   width: 100%;
   margin: 0 auto;
@@ -37,6 +51,12 @@
   position: relative;
   top: 10px;
 }
+.gif {
+  width: 100px;
+  float: right;
+  position: relative;
+  bottom: 20px;
+}
 
 .bottom {
   text-align: center;
@@ -60,4 +80,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+.gif2 {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 100px;
+  float: left;
+  position: relative;
+  bottom: 20px;
 }
