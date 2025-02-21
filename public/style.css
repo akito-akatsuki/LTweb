@@ -3,11 +3,6 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-.container {
-  max-width: 100%;
-  margin: auto;
-  padding: 20px;
-}
 .responsive-image {
   width: 100%;
   height: auto;
@@ -88,4 +83,12 @@ body {
   float: left;
   position: relative;
   bottom: 20px;
+}
+
+.proj {
+  justify-content: center;
+  display: flex;
+}
+.op {
+  font-size: 40px;
 }
