@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #00d9ff;
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 20px;
+}
+
+.alert {
+  position: relative;
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.prompt {
+  position: relative;
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.confirm {
+  position: relative;
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
